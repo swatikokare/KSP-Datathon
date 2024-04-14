@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <title>i1</title>
+ 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+        <!--Stylesheet-->
+        <style media="screen">
+            *,
+*:before,
+*:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body{
+        background-color: #ededf0;
+}
+.background{
+        width: 430px;
+        height: 520px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+}
+
+
+
+form{
+        height: 490px;
+        width: 450px;
+        background-color: rgba(185, 173, 173, 0.13);
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(16, 14, 14, 0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        padding: 50px 35px;
+}
+form *{
+        font-family: 'Poppins',sans-serif;
+        color: #1a1414;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+}
+form h3{
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+}
+
+label{
+        display: block;
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 500;
+}
+
+::placeholder{
+        color: #251818;
+}
+button{
+        margin-top: 50px;
+        width: 100%;
+        background-color: #1c1724;
+        color: #080710;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+
+
+.logo {
+        display: flex;
+        margin-left: 30px;
+        
+        
+        margin-bottom: 30px;
+}
+
+.logo h3{
+    justify-content: center;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 15px;
+}
+.logo img {
+        width: 75px;
+        height: 75px;
+}
+
+#Dt,#Ps,#Ps2{
+    display: block;
+        height: 50px;
+        width: 100%;
+        background-color: rgba(67, 46, 46, 0.07);
+        border-radius: 3px;
+        padding: 0 10px;
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 300;
+        border: #080710 solid 1px;
+        
+}
+
+option{
+    font-size: 14px;
+    font-weight: 300;
+    color: #282448;
+    padding: 10px;
+   margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    display: block;
+    height: 50px;
+}
+        </style>
+</head>
+<body>
+        <div class="background">
+        
+        <form>
+                <div class="logo">
+                        <img src="K3.png" alt="Logo">
+                        <h3>Police Data</h3>
+                </div>
+                
+
+                <div>
+                    <label for="Dt">District</label>
+                    <select id="Dt">
+                        <option value="option1">Bengaluru</option>
+                        <option value="option2">Bagalkote</option>
+                        <option value="option3">Chikkamagaluru</option>
+                        <option value="option4">Mandya</option>
+                        <option value="option5">Dharwad</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="Ps">Police Station</label>
+                    <select id="Ps">
+                        <option value="option1">Jayanagar Traffic PS</option>
+                        <option value="option2">Yeshwanthapura Traffic PS</option>
+                        <option value="option3">Rajarajeshwari Nagar PS</option>
+                        <option value="option4">Kadugodi PS</option>
+                        <option value="option5">Koramangala PS</option>
+                        <option value="option6">J P nagar PS</option>
+                       
+                    </select>
+                </div>  
+                
+                <div>
+                    <label for="Ps2">Person</label>
+                    <select id="Ps2">
+                        <option value="option1">Police Person name 1</option>
+                        <option value="option2">Police Person name 2</option>
+                        <option value="option3">Police Person name 3</option>
+                        <option value="option4">Police Person name 4</option>
+                        <option value="option5">Police Person name 5</option>
+                        
+                    </select>
+                </div> 
+        </form>
+</div>
+</body>
+</html>
